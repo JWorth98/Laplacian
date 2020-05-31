@@ -19,6 +19,22 @@ optional arguments:
                         path to the input image
   -t [TYPE], --type [TYPE]
                         optional, type of laplacian filter to use
+                        0 (default) = [ 0, 1, 0]
+                                      [ 1,-4, 1]
+                                      [ 0, 1, 0]
+
+                        1 =           [ 0,-1, 0]
+                                      [-1, 4,-1]
+                                      [ 0,-1, 0]
+
+                        2 =           [ 1, 1, 1]
+                                      [ 1,-8, 1]
+                                      [ 1, 1, 1]
+
+                        3 =           [-1,-1,-1]
+                                      [-1, 8,-1]
+                                      [-1,-1,-1]
+
 ```
 
 ## Required Packages
