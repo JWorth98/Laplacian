@@ -8,6 +8,8 @@ Clone project to local machine. Install a python interpreter. Run the applicatio
 ## Usage
 
 Run from python command prompt in the project folder with valid python interpreter.
+
+A test version of the program can be used with the image blurry_moon.tif
 ```
 usage: python laplacian.py [-h] -i IMAGE [-t [TYPE]]
 
