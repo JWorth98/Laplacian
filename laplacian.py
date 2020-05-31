@@ -114,6 +114,22 @@ def laplacian(img: np.ndarray, type: int):
 
     type : int
         Type of Laplacian to calculate.
+        
+            0 (default) = [ 0, 1, 0]
+                          [ 1,-4, 1]
+                          [ 0, 1, 0]
+
+            1 =           [ 0,-1, 0]
+                          [-1, 4,-1]
+                          [ 0,-1, 0]
+
+            2 =           [ 1, 1, 1]
+                          [ 1,-8, 1]
+                          [ 1, 1, 1]
+
+            3 =           [-1,-1,-1]
+                          [-1, 8,-1]
+                          [-1,-1,-1]
     """
 
     print("Applying Laplacian kernel number {}".format(type))
